@@ -13,7 +13,7 @@ document.getElementById("calcular").addEventListener("click", function () {
 
   // Exibe o resultado na página
   let resultadoElement = document.getElementById("resultado");
-  resultadoElement.textContent = `Oba, você teve um lucro de ${lucro.toFixed(
+  resultadoElement.textContent = `Você teve um lucro de ${lucro.toFixed(
     2
   )} nesta rota!`;
 
