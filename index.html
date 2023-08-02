@@ -16,21 +16,23 @@
       />
       <div class="questoes">
         Valor pago pelo Ifood (R$):
-        <input type="number" class="caixas" />
+        <input type="number" class="caixas" id="valorCorrida" />
       </div>
       <div class="questoes">
         Quantos km por litro faz o veículo:
-        <input type="number" class="caixas" />
+        <input type="number" class="caixas" id="kmPorLitro" />
       </div>
       <div class="questoes">
         Valor pago no litro de combustível (R$):
-        <input type="number" class="caixas" />
+        <input type="number" class="caixas" id="valorLitro" />
       </div>
       <div class="questoes">
         Distância total percorrida em km:
-        <input type="number" class="caixas" />
+        <input type="number" class="caixas" id="distanciaPercorrida" />
       </div>
-      <button class="questoes">Calcular</button>
+      <button class="questoes" id="calcular">Calcular</button>
+      <div id="resultado" class="resultado invisivel"></div>
+      <script src="app.js"></script>
     </div>
   </body>
 </html>

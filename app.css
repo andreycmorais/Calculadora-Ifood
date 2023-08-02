@@ -38,3 +38,13 @@ body {
   font-size: 130%;
   margin-bottom: 20px;
 }
+.resultado {
+  background-color: rgb(0, 190, 10);
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 100%;
+}
+.invisivel {
+  display: none;
+}
